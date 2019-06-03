@@ -15,4 +15,7 @@ int main() {
 		cout << "Enter age: ";
 		cin >> ageArray[i];	// How to avoid overflowing and limit the age range between 0 and 99
 	}
+
+	delete[] ageArray;
+
 }
